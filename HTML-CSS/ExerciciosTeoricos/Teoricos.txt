@@ -1,0 +1,22 @@
+1- São tags utilizadas para passar informações especificas para o conteúdo do navegador. São de extrema importancia para que possamos estruturar o site da forma correta. Footer, Header, Section
+
+2- Elementos Inline são usados especificamente para marcar partes exatas dentro dos textos usados no HTML. Exemplos desses elementos são os elementos "button" e "strong"
+
+3- Elementos Block Level são chamados assim por criarem "blocos"  dentro de seu elemento pai,  ocupando por completo seu espaço. h1, h2, h3, h4, h5
+
+4- Esse atributo é utilizado para descrever em forma de texto as imagens utilizadas no projeto, e só aparece caso a imagem acaba quebrando e não apareça no site. Ou seja, é importante pois caso a imagem quebre, ainda tem um texto descrevendo exatamente como ela era.
+
+5- O conceito é bem simples, o nome herança se dá pelo fato de elementos filhos herdarem as características de estilização de seus pais (elementos superiores a eles)
+um exemplo disso é caso nós fizemos isso:
+
+CSS
+p {color: white;}
+
+HTML
+<p> Primeira parte do parágrafo <em> Parte destacada do parágrafo</em> Parte final do parágrafo.</p>
+
+6- É simplesmente uma forma de organizar o código do CSS com o intuito de resolver problemas decorrentes do desenvolvimento 
+
+7- As medidas absolutas são muito mais exatas e especificas que as relativas, tendo em mente que o valor delas é dado por um valor exato em pixels ou centimentros por exemplo, e que esse valor se mantem independente de onde o site esteja rodando. Já as medidas relativas são mais flexíveis e dependem de um valor externo, como a porcentagem por exemplo.
+
+8- viewport width e viewport height são respectivamente a largura e altura de uma determinada parte da página contabilizada em pixels
