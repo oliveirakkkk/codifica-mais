@@ -28,6 +28,7 @@ text-align: center;
 * {
     margin: 0;
     padding: 3px;
+    
 }
 
 .Links {
@@ -120,9 +121,11 @@ color: black;
 }
 
 .imagem {
-    
+
 text-align: center;
 
 }
+
+
 
 
