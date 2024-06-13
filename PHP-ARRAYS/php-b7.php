@@ -16,23 +16,33 @@ function calcularMedia($notasALunos) {
         
 }
 
+$quantidadeAlunosAprovados = 0;
+$quantidadeAlunosReprovados = 0;
+
  for ($i = 0; $i < count($notasAlunos); $i += 1) {
 
     $media = calcularMedia ($notasAlunos[$i]);
 
     if ($media < 7) {
 
-    echo "Reprovado, sua media foi " . $media . "\n";
-
+        echo "Reprovado, sua media foi " . $media . "\n";
+        $quantidadeAlunosReprovados += 1;
     }
 
     else {
 
-    echo "Aprovado, sua media foi " . $media . "\n";
+        echo "Aprovado, sua media foi " . $media . "\n";
+        $quantidadeAlunosAprovados += 1;
 
     }
 
 }
+
+echo "A quantidade de alunos reprovados é " . $quantidadeAlunosReprovados . "\n";
+
+echo "A quantidade de alunos aprovados é " . $quantidadeAlunosAprovados . "\n";
+
+
 
 
 
