@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+body {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.conteudo-principal {
+
+    display:flex;
+    justify-content: space-between;
+    flex: 0.5;
+    height: 260px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.40);
+    border-radius: 10px;
+
+}
+
+.especificacoes {
+
+    display:flex;
+    flex:content;
+    flex-direction: column;
+    gap: 17%;
+    padding: 20px;
+
+}
+
+.especificacoes-coluna-um {
+
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    
+
+}
+
+.especificacoes-coluna-dois {
+
+    display:flex;
+    flex:1;
+    justify-content: space-around;
+    border: none;
+
+}
+
+.especificacoes-coluna-tres {
+
+    display:flex;
+    flex:1;
+    justify-content: space-around;
+
+}
+
+.especificacoes-coluna-quatro {
+
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    gap: 20px;
+    font-family:"Krona One", sans-serif;
+    
+
+}
+
+.ImagemInsana {
+
+    flex: 1;
+    border: 1px solid;
+    overflow: hidden;
+    width: 300px;
+    height: 100%;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+img {
+    height: 100%
+ }
+
+ .botao-selecionado {
+
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border:none;
+    font-family: "Montserrat", sans-serif;
+
+
+ }
+
+ .botao-nao-selecionado {
+
+    border:none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+
+ }
+
+ .botao-nao-selecionado-coluna-tres {
+
+    border:1px;
+    color: black;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+
+ }
