@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 $notasAlunos = [
@@ -23,4 +24,6 @@ if $mediaNotas <= 7 {
     echo "Voce está reprovado";
 
 }
+=======
+>>>>>>> 994cf78c70f0312d1d03d3e04052b98035fcf945
 
