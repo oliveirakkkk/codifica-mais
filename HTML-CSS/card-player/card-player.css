@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+body {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(36, 40, 49);
+    margin: 0;
+
+}
+
+.conteudo-principal {
+
+    display:flex;
+    justify-content: center;
+    flex: 0.5;
+    height: 16rem;
+    width: 30rem;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: whitesmoke;
+
+}
+
+.coluna-um {
+
+    display:flex;
+    flex:content;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+.coluna-dois {
+
+justify-content: space-around;
+display:flex;
+height: 45px;
+padding: 10px;
+
+}
+
+.coluna-tempo {
+
+    display:flex;
+    flex:auto;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
+    justify-content: space-between;
+    background-color: rgb(39, 102, 197);
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+
+}
+
+.coluna-titulos {
+
+    display:flex;
+    flex:content;
+    flex-direction: column;
+    padding: 25px;
+    gap: 10px;
+
+}
+
+.imagem {
+
+    height: 150px;
+    width: 150px;
+    flex: 1;
+    border: 1px solid;
+    overflow: hidden;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.Titulo1 {
+
+    color:blue;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.Titulo2 {
+
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.Titulo3 {
+
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.botao-um {
+
+border:none;
+background-color: whitesmoke;
+
+}
+
+.botao-dois {
+
+    border:none;
+    background-color: whitesmoke;
+    
+    }
+
+i {
+
+    font-size: 20px;
+    color:slategrey;
+
+}
+
+.botao-tres {
+
+    border:none;
+    background-color: whitesmoke;
+    
+    }
+
+.botao-quatro {
+
+     border:none;
+    background-color: whitesmoke;
+        
+    }
+
+.botao-cinco {
+
+    border:none;
+    background-color: whitesmoke;
+           
+     }
+
+
+.botao-seis {
+
+    border:none;
+    background-color: whitesmoke;
+           
+    }
+
+
+.botao-sete {
+
+    border:none;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+           
+    }
+
+.coluna-tempo-primario {
+
+padding: 10px;
+
+}
