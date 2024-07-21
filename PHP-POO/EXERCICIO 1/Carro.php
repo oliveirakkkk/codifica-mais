@@ -3,13 +3,13 @@
 
 class Carro {
 
-    public $marca;
+    private $marca;
 
-    public $modelo;
+    private $modelo;
 
-    public $anoFabricacao;
+    private $anoFabricacao;
 
-    public $cor;
+    private $cor;
 
     public function __construct($marca, $modelo, $anoFabricacao, $cor) {
 
