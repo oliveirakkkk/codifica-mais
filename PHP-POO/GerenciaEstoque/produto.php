@@ -18,8 +18,8 @@ public function __construct(&$estoque , $sku) {
     $this->sku = $sku;
     $this->nome = $nome;
     $this->unidadeMedida = $unidadeMedida;
-    $this->preco = $preco;
     $this->quantidade = $quantidade;
+    $this->preco = $preco;
     $this->cor = $cor;
 
 }
