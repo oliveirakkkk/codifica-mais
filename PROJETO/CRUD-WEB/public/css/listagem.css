@@ -1,0 +1,79 @@
+
+body {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(50, 35, 187);
+    margin: 0;
+
+}
+
+.novoItem {
+
+    display:flex;
+    justify-content:flex-start;
+    height: 4rem;
+    width: 20rem;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid;
+    background-color: whitesmoke;
+
+}
+
+.conteudoPrincipal {
+
+    display:flex;
+    justify-content: center;
+    height: 35rem;
+    width: 40rem;
+    flex-direction:column;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow:rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    gap: 0.6rem;
+    padding: 2rem;
+
+
+}
+
+.quadradoUm {
+
+    display:flex;
+    justify-content: center;
+    height: 12rem;
+    width: 39,5rem;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid;
+    background-color: whitesmoke;
+
+}
+
+.quadradoDois {
+
+    display:flex;
+    justify-content: center;
+    height: 12rem;
+    width: 39,5rem;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid;
+    background-color: whitesmoke;
+
+}
+
+.quadradoTres {
+
+    display:flex;
+    justify-content: center;
+    height: 12rem;
+    width: 39,5rem;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid;
+    background-color: whitesmoke;
+
+}
