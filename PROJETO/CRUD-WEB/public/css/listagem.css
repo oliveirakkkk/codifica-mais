@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+body {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#001D3D;
+    margin: 0;
+
+}
+
+.cabecalho {
+
+    display:flex;
+    flex-direction:row;
+    gap:10rem;
+    margin: 1rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.novoItem {
+
+    display:flex;
+    width: 10rem;
+    border-radius: 8px;
+    background-color: #FFC300;
+    justify-content:center;
+    padding: 5px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    border:none;
+
+}
+
+.buscarItem {
+
+    display:flex;
+    width: 20rem;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #FFD60A;
+    justify-content: center;
+    color:  #685600;
+
+}
+
+.conteudoPrincipal {
+
+    display:flex;
+    justify-content: center;
+    height: 35rem;
+    width: 40rem;
+    flex-direction:column;
+    border-radius: 15px;
+    background-color: #003566;
+    box-shadow:rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    gap: 0.6rem;
+    padding: 2rem;
+
+
+}
+
+.quadradoUm {
+
+    display:flex;
+    height: 12rem;
+    width: 39,5rem;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.quadradoDois {
+
+    display:flex;
+    height: 12rem;
+    width: 39,5rem;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+
+}
+.quadradoTres {
+
+    display:flex;
+    height: 12rem;
+    width: 39,5rem;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.linhaSuperior {
+
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.linhaDoMeio {
+
+    display:flex;
+    justify-content:space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.linhaInferior {
+
+    display:flex;
+    justify-content:space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.vestuario {
+
+    margin-right: 13rem;
+    display:flex;
+    width: 6rem;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #FFD60A;
+    justify-content: center;
+
+
+}
+
+.editar {
+
+    display:flex;
+    width: 6rem;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(198, 255, 112);
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    border:none;
+
+}
+
+.deletar {
+
+    display:flex;
+    width: 6rem;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(255, 74, 74);
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    border:none;
+
+}
+
+.numeros {
+
+opacity: 40%;
+
+}
+
+.escritorio {
+
+    margin-right: 13rem;
+    display:flex;
+    width: 6rem;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #9669ff;
+    justify-content: center;
+
+
+}
+
+.eletronico {
+
+    margin-right: 13rem;
+    display:flex;
+    width: 6rem;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #60ff5b;
+    justify-content: center;
+
+
+}
+
+.novoitem2 {
+
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    border:none;
+    font-size: xx-large;
+    color: #FFD60A;
+
+}
+
+.quadradoUmMeio {
+
+    display:flex;
+    height: 2rem;
+    width: 17rem;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.quadradoDoisMeio {
+
+    display:flex;
+    height: 2rem;
+    width: 14rem;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+
+}
+
