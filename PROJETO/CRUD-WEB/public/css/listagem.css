@@ -238,3 +238,32 @@ opacity: 40%;
 
 }
 
+.quadradoFormulario {
+
+    display:flex;
+    height: 60%;
+    width: 39,5rem;
+    flex-direction: column;
+    border-radius: 30px;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+    border:solid 1px black;
+    background-color: whitesmoke;
+
+}
+
+* {
+
+    border:solid 1px black;
+
+
+}
+
+.quadradoFormulario__Meio, .quadradoFormulario__Inferior {
+
+   
+        display: flex;
+        justify-content: space-between;
+
+
+}

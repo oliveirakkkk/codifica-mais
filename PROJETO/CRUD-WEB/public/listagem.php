@@ -19,7 +19,7 @@ session_start();
 
         <div class="cabecalho">
 
-            <a href="adicionar.php"><button class="novoItem"> Novo Item </button></a>
+            <a href="/formulario.php"><button class="novoItem"> Novo Item </button></a>
 
             <div class="buscarItem"> Buscar Item </div>
 
