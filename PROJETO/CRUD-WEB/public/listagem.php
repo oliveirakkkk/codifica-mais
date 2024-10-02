@@ -47,7 +47,7 @@ session_start();
 
             <div class="linhaInferior">
 
-                <button class="editar"> Editar </button>
+            <a href="/editar.php"><button class="editar"> Editar </button></a>
 
                 <button class="deletar"> Deletar </button>
 
@@ -77,7 +77,7 @@ session_start();
 
             <div class="linhaInferior">
 
-                <button class="editar"> Editar </button>
+            <a href="/editar.php"><button class="editar"> Editar </button></a>
 
                 <button class="deletar"> Deletar </button>
 
@@ -106,7 +106,7 @@ session_start();
 
             <div class="linhaInferior">
 
-                <button class="editar"> Editar </button>
+            <a href="/editar.php"><button class="editar"> Editar </button> </a>
 
                 <button class="deletar"> Deletar </button>
 

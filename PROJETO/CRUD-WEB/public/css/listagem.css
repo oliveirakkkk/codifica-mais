@@ -249,21 +249,50 @@ opacity: 40%;
     font-family: "Montserrat", sans-serif;
     border:solid 1px black;
     background-color: whitesmoke;
+    padding: 5%;
 
 }
 
-* {
 
-    border:solid 1px black;
-
-
-}
 
 .quadradoFormulario__Meio, .quadradoFormulario__Inferior {
 
    
         display: flex;
         justify-content: space-between;
+        padding:5px;
 
+
+}
+
+.titulo {
+
+    font-family: "Montserrat", sans-serif;
+    display:flex;
+    font-size: 40px;
+    padding-left: 20px;
+    color:#FFC300;
+
+}
+
+.Meio__Metade {
+
+    display:flex;
+    flex-direction: column;
+    
+
+}
+
+.cadastrar {
+
+    display:flex;
+    width: 6rem;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(198, 255, 112);
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    border:none;
 
 }
